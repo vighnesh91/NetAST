@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime and Engine storage
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency Directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Local Dev Environment Secrets (Never commit credentials or license tags)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Outputs (Compiled Web Workers / Minified Static assets)
+dist/
+build/
+out/
+
+# Backup files and local test configurations
+*.cfg
+*.xml
+*.json.bak
+encrypted-netast-backup.bin
+
+# OS specific files
+.DS_Store
+Thumbs.db
